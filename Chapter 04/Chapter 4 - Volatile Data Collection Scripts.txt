@@ -1,0 +1,29 @@
+Chapter 4: Volatile Data Collection Scripts
+
+Description
+Chapter 4 contains two scripts for collecting volatile data from Windows and Linux systems. These are crucial for digital forensics and incident response, helping in the collection of system information under investigation.
+
+Prerequisites
+For Windows: Windows OS, Administrative privileges.
+For Linux: Linux OS, Root access or sudo privileges.
+Installation
+Clone the repository or download the scripts directly to the system where data collection is needed.
+
+Usage
+Windows Volatile Data Collection Script
+Open Command Prompt as Administrator.
+Navigate to the script's directory using cd path\to\script.
+Run the script: Windows_volatile_data_collection_script.bat.
+Linux Volatile Data Collection Script
+Open Terminal.
+Navigate to the script's directory: cd /path/to/script.
+Make the script executable: chmod +x Linux_volatile_data_collection.sh.
+Run the script with root privileges: sudo ./Linux_volatile_data_collection.sh.
+Data Handling
+Ensure secure handling and storage of the collected data, complying with privacy and legal guidelines.
+
+Troubleshooting
+Check permissions and available system storage before running the scripts.
+
+
+
